@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/platformText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textAppearance="@style/PlatformFalse"/>
+
+    <Button
+        android:id="@+id/platform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle platform attribute"/>
+
+    <TextView
+        android:id="@+id/compatText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hello World!2"
+        android:textAppearance="@style/CompatFalse"/>
+
+    <Button
+        android:id="@+id/compat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle compat attribute"/>
+
+</LinearLayout>
